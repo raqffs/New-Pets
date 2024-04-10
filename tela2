@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="168dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/vermelho"
+        android:shadowColor="#FF001F"
+        android:text="Continuar"
+        android:textColorHighlight="#FF001F"
+        android:textColorHint="#FF001F"
+        android:textColorLink="#FF001F"
+        app:iconTint="#FF001F"
+        app:rippleColor="#FF001F"
+        app:strokeColor="#FF001F"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="291dp"
+        android:layout_height="70dp"
+        android:text="Digite o códigp de 5 caracteres enviado ao E-mail:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recuperação de conta:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="438dp"
+        android:layout_height="253dp"
+        android:LinearLayout="100px"
+        android:background="#000000"
+        android:backgroundTint="#ED0E29"
+        app:layout_constraintBottom_toBottomOf="@+id/TEXT"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772"
+        tools:layout_editor_absoluteX="-14dp" />
+
+    <TextView
+        android:id="@+id/TEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061"
+        android:layout_width="139dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/bangers"
+        android:text="New Pets"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/checkbox_off_background"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/checkbox_off_background"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/checkbox_off_background"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/checkbox_off_background"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/checkbox_off_background"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
