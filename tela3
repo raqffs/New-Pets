@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="33dp"
+        android:layout_height="26dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/olho_removebg_preview"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="168dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/vermelho"
+        android:shadowColor="#FF001F"
+        android:text="Cadastrar"
+        android:textColorHighlight="#FF001F"
+        android:textColorHint="#FF001F"
+        android:textColorLink="#FF001F"
+        app:iconTint="#FF001F"
+        app:rippleColor="#FF001F"
+        app:strokeColor="#FF001F"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite sua nova senha:"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite sua senha:"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar nova senha:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nova senha:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recuperação de senha:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <View
+        android:id="@+id/view"
+        tools:layout_editor_absoluteX="-14dp"
+        android:layout_width="438dp"
+        android:layout_height="253dp"
+        android:LinearLayout="100px"
+        android:background="#000000"
+        android:backgroundTint="#ED0E29"
+        app:layout_constraintBottom_toBottomOf="@+id/TEXT"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772" />
+
+    <TextView
+        android:id="@+id/TEXT"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_width="139dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/bangers"
+        android:text="New Pets"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+</androidx.constraintlayout.widget.ConstraintLayout>
