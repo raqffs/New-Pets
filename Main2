@@ -1,0 +1,177 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <View
+        android:id="@+id/view"
+        android:layout_width="433dp"
+        android:layout_height="96dp"
+        android:LinearLayout="100px"
+        android:background="#000000"
+        android:backgroundTint="#ED0E29"
+        tools:layout_editor_absoluteX="-11dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/baseline_remove_red_eye_24"
+        tools:layout_editor_absoluteX="338dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acessórios"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Divulgue seu pet"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Triagem"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="653dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobre nós"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="653dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="352dp"
+        android:layout_height="123dp"
+        android:fontFamily="@font/bangers"
+        android:text="New Pets"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/baseline_search_24"
+        tools:layout_editor_absoluteX="348dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="948dp"
+        android:layout_height="129dp"
+        app:srcCompat="@drawable/capa_filhote_de_golden"
+        tools:layout_editor_absoluteX="-269dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="342dp"
+        android:layout_height="295dp"
+        app:srcCompat="@drawable/gato"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="114dp"
+        android:layout_height="108dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/meu_la_o"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="114dp"
+        android:layout_height="108dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/fichario"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="114dp"
+        android:layout_height="108dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/auaumiaumiau_removebg_preview__2_"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="114dp"
+        android:layout_height="108dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/__pessoas"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adote seus pets aqui!"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="não os deixe que nem esse gatinho "
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="62dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#ED0E29"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/barrinha_removebg_preview"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="50dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#ED0E29"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/perfil_removebg_preview"
+        tools:layout_editor_absoluteX="358dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
